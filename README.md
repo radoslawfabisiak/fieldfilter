@@ -2,12 +2,14 @@
 It helps you sort data by one or many fields
 
 ##Usage
-`<ul>
+```html
+<ul>
   <li *ngFor="let item of items | filterByField: {
     name: filterName.name,
     lastName: filterName.lastName
   }"></li>
-</ul>`
+</ul>
+```
 
 ##License
 MIT
